@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/miActionBarComposeIcon"
+        android:icon="@drawable/ic_action_compose"
+        android:onClick="onComposeIconClick"
+        android:showAsAction="ifRoom"
+        android:title="Settings">
+    </item>
+    <item
+        android:id="@+id/miActionBarProfileIcon"
+        android:icon="@drawable/ic_action_profile"
+        android:onClick="onProfileIconClick"
+        android:showAsAction="ifRoom"
+        android:title="Profile">
+    </item>
+
+</menu>
