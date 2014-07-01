@@ -17,7 +17,11 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+   <style name="MyCustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">#ECD078</item>
+        <item name="android:background">#33CCFF</item>       
     </style>
 </resources>
